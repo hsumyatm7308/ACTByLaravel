@@ -1,3 +1,8 @@
+@extends('aungchantharhotel.layout')
+
+@section('title', 'Blog')
+
+
 <!DOCTYPE HTML>
 <!--
 	Future Imperfect by HTML5 UP
@@ -7,7 +12,7 @@
 <html>
 
 <head>
-	<title>Future Imperfect by HTML5 UP</title>
+	
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="{{asset('aungchanthar/assets/css/main.css')}}" />
@@ -20,14 +25,14 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1><a href="index.html">Future Imperfect</a></h1>
+			<h1><a href="{{route('index')}}">Aung Chan Thar</a></h1>
 			<nav class="links">
 				<ul>
-					<li><a href="#">Lorem</a></li>
-					<li><a href="#">Ipsum</a></li>
-					<li><a href="#">Feugiat</a></li>
-					<li><a href="#">Tempus</a></li>
-					<li><a href="#">Adipiscing</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Rooms</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Restaurant</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 			<nav class="main">
@@ -106,11 +111,12 @@
 					</div>
 					<div class="meta">
 						<time class="published" datetime="2015-11-01">November 1, 2015</time>
-						<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg"
-								alt="" /></a>
+						<a href="#" class="author"><span class="name">Jane Doe</span>    <img src="{{ asset('aungchanthar/assets/img/users/user1.jpg') }}">
+
+					</a>
 					</div>
 				</header>
-				<a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+				<a href="single.html" class="image featured"><img src="https://source.unsplash.com/random/500x300?1" alt="" /></a>
 				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
 					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
 					congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
@@ -131,16 +137,16 @@
 			<article class="post">
 				<header>
 					<div class="title">
-						<h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>
+						<h2><a href="{{route('singlepage')}}">Ultricies sed magna euismod enim vitae gravida</a></h2>
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
 						<time class="published" datetime="2015-10-25">October 25, 2015</time>
-						<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg"
+						<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{asset('aungchanthar/images/avatar.jpg')}}"
 								alt="" /></a>
 					</div>
 				</header>
-				<a href="single.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+				<a href="single.page" class="image featured"><img src="https://source.unsplash.com/random/500x300?2" alt="" /></a>
 				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
 					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
 					congue ullam corper.</p>
@@ -165,11 +171,11 @@
 					</div>
 					<div class="meta">
 						<time class="published" datetime="2015-10-22">October 22, 2015</time>
-						<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg"
+						<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{asset('aungchanthar/images/avatar.jpg')}}"
 								alt="" /></a>
 					</div>
 				</header>
-				<a href="single.html" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+				<a href="single.html" class="image featured"><img src="https://source.unsplash.com/random/500x300?3" alt="" /></a>
 				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
 					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
 					congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
@@ -513,10 +519,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 			<!-- Intro -->
 			<section id="intro">
-				<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
+				<a href="#" class="logo"><img src="{{asset('aungchanthar/images/logo.jpg')}}" alt="" /></a>
 				<header>
-					<h2>Future Imperfect</h2>
-					<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+					<h2>Aung Chan Thar</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
 				</header>
 			</section>
 
@@ -529,9 +535,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<header>
 							<h3><a href="single.html">Vitae sed condimentum</a></h3>
 							<time class="published" datetime="2015-10-20">October 20, 2015</time>
-							<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+							<a href="#" class="author"><img src="https://source.unsplash.com/random/100x100?4" alt="" /></a>
 						</header>
-						<a href="single.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
+						<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201" alt="" /></a>
 					</article>
 
 					<!-- Mini Post -->
@@ -539,9 +545,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<header>
 							<h3><a href="single.html">Rutrum neque accumsan</a></h3>
 							<time class="published" datetime="2015-10-19">October 19, 2015</time>
-							<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+							<a href="#" class="author"><img src="https://source.unsplash.com/random/100x100?3" alt="" /></a>
 						</header>
-						<a href="single.html" class="image"><img src="images/pic05.jpg" alt="" /></a>
+						<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?1" alt="" /></a>
 					</article>
 
 					<!-- Mini Post -->
@@ -549,9 +555,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<header>
 							<h3><a href="single.html">Odio congue mattis</a></h3>
 							<time class="published" datetime="2015-10-18">October 18, 2015</time>
-							<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+							<a href="#" class="author"><img src="https://source.unsplash.com/random/100x100?2" alt="" /></a>
 						</header>
-						<a href="single.html" class="image"><img src="images/pic06.jpg" alt="" /></a>
+						<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?3" alt="" /></a>
 					</article>
 
 					<!-- Mini Post -->
@@ -559,9 +565,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<header>
 							<h3><a href="single.html">Enim nisl veroeros</a></h3>
 							<time class="published" datetime="2015-10-17">October 17, 2015</time>
-							<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+							<a href="#" class="author"><img src="https://source.unsplash.com/random/100x100?1" alt="" /></a>
 						</header>
-						<a href="single.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
+						<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?4" alt="" /></a>
 					</article>
 
 				</div>
@@ -576,7 +582,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
 								<time class="published" datetime="2015-10-20">October 20, 2015</time>
 							</header>
-							<a href="single.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?6" alt="" /></a>
 						</article>
 					</li>
 					<li>
@@ -585,7 +591,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
 								<time class="published" datetime="2015-10-15">October 15, 2015</time>
 							</header>
-							<a href="single.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
+							<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?7" alt="" /></a>
 						</article>
 					</li>
 					<li>
@@ -594,7 +600,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
 								<time class="published" datetime="2015-10-10">October 10, 2015</time>
 							</header>
-							<a href="single.html" class="image"><img src="images/pic10.jpg" alt="" /></a>
+							<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?8" alt="" /></a>
 						</article>
 					</li>
 					<li>
@@ -603,7 +609,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
 								<time class="published" datetime="2015-10-08">October 8, 2015</time>
 							</header>
-							<a href="single.html" class="image"><img src="images/pic11.jpg" alt="" /></a>
+							<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?9" alt="" /></a>
 						</article>
 					</li>
 					<li>
@@ -612,7 +618,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<h3><a href="single.html">Congue ullam corper lorem ipsum dolor</a></h3>
 								<time class="published" datetime="2015-10-06">October 7, 2015</time>
 							</header>
-							<a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+							<a href="single.html" class="image"><img src="https://source.unsplash.com/random/300x201?10" alt="" /></a>
 						</article>
 					</li>
 				</ul>
@@ -658,3 +664,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 </body>
 
 </html>
+

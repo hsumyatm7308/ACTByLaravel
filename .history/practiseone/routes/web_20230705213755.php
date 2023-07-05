@@ -6,9 +6,6 @@ use App\Http\Controllers\aungchantharController;
 use App\Http\Controllers\blogController;
 use App\Http\Controllers\singlepageController;
 use App\Http\Controllers\postController;
-use App\Http\Controllers\posttwoController;
-use App\Http\Controllers\postthreeController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,6 +54,4 @@ Route::get('students',[App\Http\Controllers\studentController::class,'index'])->
 Route::get('aungchantharhotel', [App\Http\Controllers\aungchantharController::class, 'index'])->name('index');
 Route::get('aungchantharhotel/blog',[App\Http\Controllers\blogController::class,'index'])->name('blog');
 Route::get('aungchantharhotel/blog/singlelayout',[App\Http\Controllers\singlepageController::class,'single'])->name('singlepage');
-Route::get('aungchantharhotel/blog/singlelayout/postone',[App\Http\Controllers\postController::class,'postone'])->name('fstpost');
-Route::get('aungchantharhotel/blog/singlelayout/postwo',[App\Http\Controllers\posttwoController::class,'posttwo'])->name('secpost');
-Route::get('aungchantharhotel/blog/singlelayout/posthree',[App\Http\Controllers\postthreeController::class,'postthree'])->name('tdpost');
+Route::get('aungchantharhotel/blog/singlelayout/post',[App\Http\Controllers\postController::class,'postone'])->name('fstpost');

@@ -3,7 +3,6 @@
 @section('title', 'Blog')
 
 
-
 <!DOCTYPE HTML>
 <!--
 	Future Imperfect by HTML5 UP
@@ -107,7 +106,7 @@
 			<article class="post">
 				<header>
 					<div class="title">
-						<h2><a href="{{route('fstpost')}}">MAGNA SED ADIPISCING</a></h2>
+						<h2><a href="">Magna sed adipiscing</a></h2>
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
@@ -138,7 +137,7 @@
 			<article class="post">
 				<header>
 					<div class="title">
-						<h2><a href="{{route('secpost')}}">Ultricies sed magna euismod enim vitae gravida</a></h2>
+						<h2><a href="">Ultricies sed magna euismod enim vitae gravida</a></h2>
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
@@ -167,7 +166,7 @@
 			<article class="post">
 				<header>
 					<div class="title">
-						<h2><a href="{{route('tdpost')}}">Euismod et accumsan</a></h2>
+						<h2><a href="single.html">Euismod et accumsan</a></h2>
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">

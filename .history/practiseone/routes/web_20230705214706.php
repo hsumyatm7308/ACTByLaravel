@@ -7,7 +7,6 @@ use App\Http\Controllers\blogController;
 use App\Http\Controllers\singlepageController;
 use App\Http\Controllers\postController;
 use App\Http\Controllers\posttwoController;
-use App\Http\Controllers\postthreeController;
 
 /*
 |--------------------------------------------------------------------------
