@@ -20,9 +20,8 @@
        
     </head>
     <body>
-
-          <!-- Start Header Section -->
-          <header>
+        <!-- Start Header Section -->
+        <header>
             <!-- Start Nav Bar -->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container">
@@ -96,10 +95,6 @@
         </header>
         <!-- End Header Section -->
 
-
-    
-
-
         <!-- Start Booking Section -->
         <section id="booking" class="search-rooms text-center">
             <form action="" method="">
@@ -131,8 +126,8 @@
 
                 <div class="rows">
                     <div class="columns">
-                        <a href="aungchanthar/assets/img/gallery/image1.jpg" class="roompopup">
-                            <img src="aungchanthar/assets/img/gallery/image1.jpg" alt="image2"/>
+                        <a href="'aungchanthar/assets/img/gallery/image1.jpg" class="roompopup">
+                            <img src="aungchanthar/assets/img/gallery/image1.jpg" alt="image1"/>
                         </a>
                         <a href="aungchanthar/assets/img/gallery/image2.jpg" class="roompopup">
                             <img src="aungchanthar/assets/img/gallery/image2.jpg" alt="image2"/>
@@ -479,7 +474,7 @@
             <div class="container-fluid">
                 <div class="d-flex flex-wrap justify-content-center">
                     <div class="filters room">
-                        <img src="aungchanthar/assets/img/gallery/image1.jpg" alt="image1" width="200px"/>
+                        <img src="aungchanthar/assets/img/gallery/image2.jpg" alt="image1" width="200px"/>
                     </div>
 
                     <div class="filters room">

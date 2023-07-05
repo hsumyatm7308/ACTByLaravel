@@ -1,7 +1,5 @@
 
-@extends('aungchantharhotel.layout')
 
-@section('title', 'Aung Chan Thar')
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,9 +18,8 @@
        
     </head>
     <body>
-
-          <!-- Start Header Section -->
-          <header>
+        <!-- Start Header Section -->
+        <header>
             <!-- Start Nav Bar -->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container">
@@ -96,10 +93,6 @@
         </header>
         <!-- End Header Section -->
 
-
-    
-
-
         <!-- Start Booking Section -->
         <section id="booking" class="search-rooms text-center">
             <form action="" method="">
@@ -131,8 +124,8 @@
 
                 <div class="rows">
                     <div class="columns">
-                        <a href="aungchanthar/assets/img/gallery/image1.jpg" class="roompopup">
-                            <img src="aungchanthar/assets/img/gallery/image1.jpg" alt="image2"/>
+                        <a href="'aungchanthar/assets/img/gallery/image1.jpg" class="roompopup">
+                            <img src="aungchanthar/assets/img/gallery/image1.jpg" alt="image1"/>
                         </a>
                         <a href="aungchanthar/assets/img/gallery/image2.jpg" class="roompopup">
                             <img src="aungchanthar/assets/img/gallery/image2.jpg" alt="image2"/>
@@ -265,7 +258,6 @@
         <!-- End Testimonials Section -->
 
         <!-- Start Blog Section -->
-
         <section id="blog" class="py-3">
             <div class="container">
                 <div class="row">

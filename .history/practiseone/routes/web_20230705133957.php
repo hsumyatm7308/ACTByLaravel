@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\studentController;
 use App\Http\Controllers\aungchantharController;
-use App\Http\Controllers\blogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,5 +49,4 @@ Route::redirect('contact','about/student');
 Route::get('students',[App\Http\Controllers\studentController::class,'index'])->name('students.index');
 
 
-Route::get('aungchantharhotel', [App\Http\Controllers\aungchantharController::class, 'index'])->name('index');
-Route::get('aungchantharhotel/blog',[App\Http\Controllers\blogController::class,'index'])->name('blog');
+Route::get('aungchantharhotel', [App\Http\Controllers\aungchantharController::class, 'index'])->name('aungchantharhotel.index');

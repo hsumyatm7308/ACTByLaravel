@@ -20,9 +20,8 @@
        
     </head>
     <body>
-
-          <!-- Start Header Section -->
-          <header>
+        <!-- Start Header Section -->
+        <header>
             <!-- Start Nav Bar -->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container">
@@ -95,10 +94,6 @@
             <!-- End Banner -->
         </header>
         <!-- End Header Section -->
-
-
-    
-
 
         <!-- Start Booking Section -->
         <section id="booking" class="search-rooms text-center">

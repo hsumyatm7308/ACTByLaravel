@@ -20,7 +20,7 @@ header{
     position: relative;
     transition: all 2s linear;
 
-   
+    margin-top:-100px ;
 }
 
 /* Start Nav Bar */
