@@ -32,9 +32,9 @@ class AppServiceProvider extends ServiceProvider
         // });
        
 
-        View::composer(['aungchantharhotel.blog.singlelayout.fstpost','aungchantharhotel.blog.singlelayout.secpost','aungchantharhotel.blog.singlelayout.tdpost','aungchantharhotel.blog.blog'],function($view){
+        View::share('*',function($view){
             $getdate = date('F m, Y');
-            $view->with('getdate',$getdate);
+                $view->with('getdate',$getdate);
         });
     }
 }

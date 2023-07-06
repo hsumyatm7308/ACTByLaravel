@@ -111,7 +111,7 @@
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
-						<time class="published" datetime="2015-11-01">{{$getdate}}</time>
+						<time class="published" datetime="2015-11-01">November 1, 2015</time>
 						<a href="#" class="author"><span class="name">Jane Doe</span>    <img src="{{ asset('aungchanthar/assets/img/users/user1.jpg') }}">
 
 					</a>
@@ -142,18 +142,18 @@
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
-						<time class="published" datetime="2015-10-25">{{$getdate}}</time>
+						<time class="published" datetime="2015-10-25">October 25, 2015</time>
 						<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{asset('aungchanthar/images/avatar.jpg')}}"
 								alt="" /></a>
 					</div>
 				</header>
-				<a href="{{route('secpost')}}" class="image featured"><img src="https://source.unsplash.com/random/500x300?2" alt="" /></a>
+				<a href="single.page" class="image featured"><img src="https://source.unsplash.com/random/500x300?2" alt="" /></a>
 				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
 					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
 					congue ullam corper.</p>
 				<footer>
 					<ul class="actions">
-						<li><a href="{{route('secpost')}}" class="button large">Continue Reading</a></li>
+						<li><a href="single.html" class="button large">Continue Reading</a></li>
 					</ul>
 					<ul class="stats">
 						<li><a href="#">General</a></li>
@@ -171,12 +171,12 @@
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
-						<time class="published" datetime="2015-10-22">{{$getdate}}</time>
+						<time class="published" datetime="2015-10-22">October 22, 2015</time>
 						<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{asset('aungchanthar/images/avatar.jpg')}}"
 								alt="" /></a>
 					</div>
 				</header>
-				<a href="{{route('tdpost')}}" class="image featured"><img src="https://source.unsplash.com/random/500x300?3" alt="" /></a>
+				<a href="single.html" class="image featured"><img src="https://source.unsplash.com/random/500x300?3" alt="" /></a>
 				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
 					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
 					congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
@@ -184,7 +184,7 @@
 					ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
 				<footer>
 					<ul class="actions">
-						<li><a href="{{route('tdpost')}}" class="button large">Continue Reading</a></li>
+						<li><a href="single.html" class="button large">Continue Reading</a></li>
 					</ul>
 					<ul class="stats">
 						<li><a href="#">General</a></li>

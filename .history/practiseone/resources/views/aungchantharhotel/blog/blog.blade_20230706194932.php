@@ -111,7 +111,7 @@
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
-						<time class="published" datetime="2015-11-01">{{$getdate}}</time>
+						<time class="published" datetime="2015-11-01">November 1, 2015</time>
 						<a href="#" class="author"><span class="name">Jane Doe</span>    <img src="{{ asset('aungchanthar/assets/img/users/user1.jpg') }}">
 
 					</a>
@@ -142,7 +142,7 @@
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
-						<time class="published" datetime="2015-10-25">{{$getdate}}</time>
+						<time class="published" datetime="2015-10-25">October 25, 2015</time>
 						<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{asset('aungchanthar/images/avatar.jpg')}}"
 								alt="" /></a>
 					</div>
@@ -171,7 +171,7 @@
 						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 					</div>
 					<div class="meta">
-						<time class="published" datetime="2015-10-22">{{$getdate}}</time>
+						<time class="published" datetime="2015-10-22">October 22, 2015</time>
 						<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{asset('aungchanthar/images/avatar.jpg')}}"
 								alt="" /></a>
 					</div>
